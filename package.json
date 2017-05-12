@@ -1,0 +1,21 @@
+{
+  "name": "browserify-tangram-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "browserify ./src/main.js > ./public/scripts/app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.0.3",
+    "tangram": "https://github.com/tangrams/tangram.git#v0.12.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "http-server": "^0.10.0"
+  }
+}
